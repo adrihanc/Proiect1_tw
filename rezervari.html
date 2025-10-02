@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head> 
+  <meta charset="UTF-8">
+  <title>Rezervări</title>   
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      display: flex;
+      background: url('fundalrezervari.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    /* meniul din stânga */
+    nav {
+      width: 200px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.8);
+      min-height: 100vh;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin-bottom: 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-weight: bold;
+      color: darkred;
+    }
+
+    /* conținutul principal */
+    main {
+      flex-grow: 1;
+      padding: 40px;
+    }
+
+    h1 {
+      color: orange;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    /* formular */
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      background: rgba(255,255,255,0.85);
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    form input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+
+    form input[type="submit"] {
+      background: orange;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background: darkorange;
+    }
+  </style>
+</head>
+<body>
+  <!-- meniul pe stânga -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Pagina Principală</a></li>
+      <li><a href="meniu.html">Meniu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Rezervări</h1>
+
+    <form>
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" name="nume">
+
+      <label for="data">Data rezervării:</label>
+      <input type="text" id="data" name="data" placeholder="zz/ll/aaaa">
+
+      <input type="submit" value="Rezervă">
+    </form>
+  </main>
+</body>
+</html>

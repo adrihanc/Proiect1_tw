@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <style>
+    body {
+      background-image: url('fundalcontact.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      font-family: Verdana, sans-serif;
+    }
+
+    h1 {
+      font-size: 300%;
+      text-align: center;
+      color: #222;
+    }
+
+    nav ul {
+      list-style-type: none; 
+      padding: 0;
+      margin: 40px 0;   /* spațiu sus/jos față de titlu */
+      text-align: center; /* centrare meniului */
+    }
+
+    nav ul li {
+      display: inline-block; 
+      margin: 0 30px; /* distanță între butoane */
+    }
+
+    nav ul li a {
+      font-size: 40px; /* mărimea textului */
+      text-decoration: none;
+      color: darkred;
+      font-weight: bold;
+      transition: color 0.3s, transform 0.2s;
+    }
+
+    nav ul li a:hover {
+      color: goldenrod;
+      transform: scale(1.1); /* mic efect când treci cu mouse-ul */
+    }
+  </style>
+</head>
+<body>
+  <hr>
+  <h1>Contact</h1>
+  <hr>
+  <nav>
+    <ul>
+      <li><a href="meniu.html">Meniu</a></li>
+      <li><a href="index.html">Pagina Principală</a></li>
+      <li><a href="rezervari.html">Rezervări</a></li>
+    </ul>
+  </nav>
+</body>
+</html>

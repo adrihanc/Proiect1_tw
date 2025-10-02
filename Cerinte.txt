@@ -1,0 +1,11 @@
+In cadrul acestei lucrari veti prezenta un site realizat de d-voastra.
+Site-ul trebuie:
+##sa contina cel putin patru pagini .html diferite ##
+sa fie posibil sa treceti de la orice pagina de pe site-ul dvs. web la orice alta pagina urmand unul sau mai multe hyperlinkuri.
+sa includa cel putin o lista (ordonata sau neordonata), o tabela si cel putin o imagine.
+sa aiba cel putin un form cu diverse controale
+cel putin 5 figuri geometrice realizate in SVG
+sa aiba cel putin un fisier de CSS
+fisierul CSS sa contina minim 5 elemente noi CSS si 3 clase noi CSS create de d-voastra
+cel putin o pagina web sa fie web responsive
+fisierul index sa contina un meniu

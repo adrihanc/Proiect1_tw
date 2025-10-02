@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <style>
+    body {
+      background-image: url('fundalcontact.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      font-family: Verdana, sans-serif;
+      display: flex; 
+    }
+
+    nav {
+      width: 200px;
+      padding: 20px;
+    }
+
+    nav ul {
+      list-style-type: none; 
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin-bottom: 20px; 
+    }
+
+    nav ul li a {
+      font-size: 20px;
+      text-decoration: none;
+      color: darkred;
+      font-weight: bold;
+    }
+
+    main {
+      flex-grow: 1;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 300%;
+      color: orange;
+      margin-bottom: 40px;
+    }
+
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    table th, table td {
+      padding: 15px 30px;
+      border: 1px solid #ccc;
+      font-size: 18px;
+    }
+
+    table th {
+      background-color: orange;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- meniul pe stânga -->
+  <nav>
+    <ul>
+      <li><a href="meniu.html">Meniu</a></li>
+      <li><a href="index.html">Pagina Principală</a></li>
+      <li><a href="rezervari.html">Rezervări</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Contact</h1>
+    <table>
+      <tr>
+        <th>Tip</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td>Adresă</td>
+        <td>Str. Marasesti nr. 12, Tarnaveni</td>
+      </tr>
+      <tr>
+        <td>Telefon</td>
+        <td>+40 123 456 789</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>contact@restaurant.ro</td>
+      </tr>
+      <tr>
+        <td>Program</td>
+        <td>Luni - Duminică: 10:00 - 23:00</td>
+      </tr>
+    </table>
+  </main>
+</body>
+</html>

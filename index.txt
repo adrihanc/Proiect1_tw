@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head> 
+  <meta charset="UTF-8">
+  <title>Local Pub</title>
+  <style>
+    body {
+      background-image: url('fundal.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 0;
+      font-family: Verdana, sans-serif;
+    }
+
+    h1 {
+      font-size: 300%;
+      text-align: center;
+      color: #222;
+    }
+
+    nav ul {
+      list-style-type: none; 
+      padding: 0;
+      margin: 20px 20px;
+      text-align: center;
+    }
+
+    nav ul li {
+      display: inline-block; 
+      margin: 200px 20px;
+    }
+
+    nav ul li a {
+      font-size: 50px;
+      text-decoration: none;
+      color: darkred;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+  </style>
+</head>
+<body class="index">
+  <hr>
+  <h1>Local Pub - Drinks, Food and More</h1>
+  <hr>
+  <nav>
+    <ul>
+      <li><a href="meniu.html">Meniu</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="rezervari.html">Rezervari</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
